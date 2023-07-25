@@ -127,7 +127,15 @@ hr{
 
 @media screen and (max-width: 767.98px){
   .container{
-      padding: 0 20px 20px 20px;
+    margin: auto;
+    padding: 0 20px 20px 20px;
+     
+  }
+  #btn{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    
   }
 
   #apresentação{ 
@@ -151,15 +159,20 @@ hr{
   
   .Avatar{
       margin-top:25px;
-      margin-right:80px;
+      margin: 0 auto;
       height:350px;
   }
 }
 
 @media screen and (max-width: 480px){
+  
+  #inicio{
+    margin: 0 auto;
+  }
+  
+
   .Avatar{
-      margin-top:15px;
-      margin-right:18%;
+      margin: 0 auto;
       height:300px;
   }
   .Avatar h6{
@@ -174,7 +187,7 @@ hr{
   #btn{
       height: 50px;
       width: 230px;
-      margin-left: 20%;        
+           
   }
   #btn a{
       font-size: 18px;

@@ -73,4 +73,13 @@ footer .social a:hover {
   text-align: center;
 }
 
+@media screen and (max-width: 767.98px) {
+    #footer{
+      margin-top: 40px;
+    }
 
+    footer .social{
+      padding: 0.5rem;
+    }
+    
+}

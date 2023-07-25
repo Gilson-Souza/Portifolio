@@ -12,6 +12,7 @@ footer #logo{
   display: flex;
   justify-content: space-around;
   align-items: center;
+  
 }
 
 
@@ -71,3 +72,5 @@ footer .social a:hover {
   align-items: center;
   text-align: center;
 }
+
+
